@@ -1,0 +1,26 @@
+
+.slide{
+    color: white;
+}
+h1, h2 {
+    margin: 0px;
+    padding: 20px;
+    font-weight:700;
+}
+.slide .container{
+    background-color: #099BDD;
+}
+#mainHeading{
+    background-color: unset;
+    color: #153d6e;
+}
+
+a:hover{
+    color: #153d6e;
+}
+.heading {
+    color: #099BDD;
+    background-color: white;
+}
+
+

@@ -1,0 +1,25 @@
+
+.collHead{
+    background-color: #30ACEC;
+}
+.collBody{
+    background-color: #30ACEC40;
+}
+
+@media(min-width:768px){
+    .collHead{
+        border-top-left-radius: 30px; border-bottom-left-radius: 30px;
+    }
+    .collBody{
+        border-top-right-radius: 30px; border-bottom-right-radius: 30px;
+    }
+ 
+}
+@media (min-width:1024px){
+    .slide3b{
+        height: 250px;
+        padding-top: 25px;
+    }
+    
+
+}

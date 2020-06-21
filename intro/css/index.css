@@ -1,0 +1,372 @@
+/*  this stylesheet is designed with desktop first ideology */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    
+    padding: 0px;
+    overflow-x: hidden;
+    background-color: #ffccbc1f;
+
+}
+.breadcrumb a{
+    color: black;
+    font-size: 12px;
+}
+#root-tabs-nav a{
+    font-weight: 700;
+  
+}
+.container-fluid{
+    padding: 0px;
+}
+.bgimg{
+    background-image: url(../img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 400px;
+    
+}
+
+#arrow{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#arrow i {
+   font-size: 35px; 
+   color: orange;
+}
+.arrow-diag{
+    padding: 10px;  
+    color: white;
+    font-weight: 800;
+    font-size: 22px;
+}
+.founder{
+    background-color: #00b7ff12;
+}
+
+.founderImg{
+    border-radius: 50%;
+}
+.founderName{
+    color: #032147;
+    padding:10px;
+    margin: 10px;
+    font-weight: bold;
+}
+#intro,#vision,#apacHousing{
+    padding-top:15px;
+    overflow-x: hidden;
+}
+#intro h1 ,#events h1, #team h1, #vision h1, #apacHousing h1 ,#societalimpact h1, #admired h1, #hfcvision h1 {
+    padding: 10px;
+    background-color: #002147;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.card{
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 0px 1px 10px black;
+    margin: 10px;
+    background-color: #e8f3ffce;
+
+}
+
+.card .card-title h3 {
+    background-color: #153e6f;
+    padding: 10px;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.blink {
+    animation: blink 3s infinite linear;
+}
+@keyframes blink{
+	0% {
+		opacity: 0;
+	}
+	20%{
+		opacity: .5;
+	}
+	40%{
+		opacity: 1;
+	}
+	60%{
+		opacity: 1;
+	}
+	80%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 0;
+	}	
+}
+.card-body{
+
+    transition: 0.25s;
+   
+}
+
+.card img{
+    height: auto;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.card ul li{
+    font-size: 18px;
+}
+.events{
+    border-radius: 9px;
+    box-shadow: unset;
+    min-height: 250px;
+}
+.events .card-header{
+    border-radius: 10px;
+    background-color: #153d6e;
+    font-size: 18px;
+}
+.events:hover{
+    box-shadow: 0px 1px 20px black;
+    transition: 0.5s ease-in-out;
+}
+.tab-content{
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+}
+.nav-tabs a{
+    color: #0062d1;
+    font-weight: bold;
+}
+.tab-content a{
+    color: orange;
+}
+#vision {
+    box-shadow: 3px 3px 15px grey;
+    background-color: white;
+    overflow-x: hidden;
+ 
+}
+#vision img{
+    width: 80%;
+}
+
+#img1{
+    width: 100px;
+}
+
+#img1{
+  float: right;
+}
+
+#img2{
+    padding-top: 110px;
+}
+
+
+#apacHousing h3{
+   
+    font-weight: bolder;
+    padding-top: 10px;
+    font-size: 20px;
+    
+} 
+
+#apacHousing #cardtitle{
+    color: white;
+}
+
+#apacHousing ul li{
+    font-size: 15px;
+}
+
+#societalimpact{
+    margin-top: 30px;
+    background-color: #fff;
+    overflow-x: hidden;
+
+}
+#statsinfo h4{
+    font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width : 991px){
+
+ 
+
+    .breadcrumb a{
+        font-size: 16px;
+    }
+
+    #intro h1,#events h1,#team h1, #vision h1,#apacHousing h1,#societalimpact h1,#admired h1, #hfcvision h1{
+        font-size: 19px;
+    }
+    .founder li{
+        font-size: 14px;
+    }
+    .card ul li {
+        font-size: 16px;
+    }
+
+    .card-title h3{
+        font-size: 17px;
+    }
+    .card img{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: auto;
+    }
+    .events .card-header{
+        font-size: 16px;
+    }
+    #vision img{
+
+        width: 70%;
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    #vision .row #img2{
+        padding-top: 0%;
+    }
+
+    #apacHousing ul li{
+        font-size: 16px;
+    }
+
+    #apacHousing h3{
+        font-size: 20px;
+    }
+    #apacHousing div h4{
+        font-size: 20px;
+        font-weight: bold;
+        }
+
+    #statsinfo{
+        opacity: 1;
+    }
+
+}
+
+
+@media screen and (max-width:450px){
+
+    .breadcrumb a{
+        font-size: 12px;
+    }
+    .founder li{
+        font-size: 14px;
+    }
+    .bgimg{
+        height: 250px;
+    }
+    #arrow{
+        height: 250px;
+    }
+    .arrow-diag{
+        padding: 10px;  
+        color: white;
+        font-size: 17px;
+    }
+    .founder li{
+        font-size: 13px;
+    }
+    .founderName{
+        text-align: center;
+    }
+    .card img{
+        height: 100px;
+        width: 100px;
+    }
+
+    #intro h1,#events h1,#team h1 ,#vision h1,#apacHousing h1,#societalimpact h1,#admired h1, #hfcvision h1{
+        font-size: 15px;
+    }
+    .card{
+        margin-left:14px;
+        margin-right:14px;
+
+    }
+    .card .card-title h3 {
+
+        font-size: 16px;
+    }
+    .card ul li {
+        font-size: 11px;
+    }
+    .card .card-title h3{
+        font-size: 15px;
+    }
+    .events{
+        box-shadow: 0px 1px 10px black;
+        min-height: unset;
+    }
+    .events .card-header{
+        font-size: 13px;
+    }
+    #root-tabs-nav a{
+        font-size: 13px;
+        padding: 10px ;
+    }
+    .nav-tabs a{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .tab-content ul li{
+        font-size: 11px;
+    }
+    #vision{
+        width:100%;
+        box-shadow: unset;
+        border-radius: unset;
+    }
+    #vision img{
+        width: 80%;
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    #vision .row #img2{
+        padding-top: 0px;
+    }
+
+    #apacHousing h3{
+        font-size: 15px;
+    }
+    #apacHousing ul li{
+        font-size: 11px;
+    }
+    #apacHousing div h4{
+    font-size: 15px;
+    font-weight: bold;
+    }
+
+    #statsinfo{
+        opacity: 1;
+    }
+  
+
+ 
+
+}

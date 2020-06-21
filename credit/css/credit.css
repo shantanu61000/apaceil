@@ -1,0 +1,31 @@
+
+h6{
+    text-align: center;
+}
+.furProc{
+    border-radius: 10px;
+    margin:auto 10px;
+    color: whitesmoke;
+}
+
+.skyBlue{
+    background-color:#00aeff56;
+}
+.lightGrey{
+    background-color:#efefef;
+}
+@media(min-width:768px){
+    .collect , .prepare , .collect2{
+        min-height: 200px;
+        background: pink;
+    }
+    .collect{
+        background: #2683c620;
+    }
+    .prepare{
+        background: #27ced720;
+    }
+    .collect2{
+        background: #42ba9740;
+    }
+}

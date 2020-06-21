@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    font-family: 'Work Sans',sans-serif;
+    background-color: #3877951c;
+    font-size: 90%;
+}
+
+.img-logo{
+    height:40px;
+    width:100px;
+}
+nav ul li{
+    list-style: none;
+    padding-left: 15px;
+    color: white;
+}
+  
+.navbar{
+    background-color: #153e6f;
+} 
+.navbar .navbar-nav .nav-link{
+    color: #ffffff;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover{
+	color: #ffc107;
+}
+.dropdown-menu .dropdown-item{
+    font-size: 80%;
+    padding-right: 5px;
+}
+.dropdown{
+    transition: 0.3s;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: #555;
+}
+.breadcrumb{
+    font-size: 80%;
+    background-color: #fff;
+    position: relative;
+    top: 30px;
+}
+@media (min-width : 500px){
+    body{
+        font-size: 95%;
+    }
+    .breadcrumb{
+        font-size: 95%;
+        top: 35px;
+    }
+    .img-logo{
+        height:45px;
+        width:120px;
+    }
+
+    nav ul li{
+        padding-top: 10px;
+    }
+}
+@media (min-width:767px){
+    .breadcrumb{
+        font-size: 100%;
+        top: 37px;
+    }
+    nav ul li a{
+        display: block;
+    }
+}
+@media (min-width: 1000px){
+    body{
+        font-size: 100%;
+    }
+}

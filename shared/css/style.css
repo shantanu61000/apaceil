@@ -1,0 +1,68 @@
+
+.slide{
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.showSlide{
+    opacity: 1;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    transition: all 0.5s ease-in-out;
+}
+
+h2{
+    color: #153d6e;
+    text-align: center;
+}
+h1 ,h2 {
+    font-weight: 700;
+}
+h6{
+    font-weight: bold;
+    color: #444;
+}
+.buttons{
+    position: fixed;
+    bottom: 0vh;
+    right: 0;
+    left: 0;
+    background-color: #153d6e;
+    padding: 10px;
+}
+.card{
+    background-color: unset;
+    border: unset;
+}
+hr{
+    background-color: #ec921c;
+    height:2px;
+}
+.form-check{
+    padding: 10px;
+}
+.question{
+    font-size: 16px;
+    font-weight: 600;
+}
+.options{
+    margin-top:20px;
+    padding:20px;
+    background: url(../../shared/img/question.png) no-repeat right top;
+    background-size: contain;
+}
+.round{
+    border-radius: 20px;
+}
+#submitAns{
+    display: none;
+}
+@media(min-width:768px){
+
+ 
+}
+@media (min-width:1024px){
+
+}
